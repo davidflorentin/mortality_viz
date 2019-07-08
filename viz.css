@@ -1,0 +1,44 @@
+
+
+
+/*Give base properties that are consistent
+throughout website*/
+html{
+	width: 100%;
+	margin: 0 auto;
+}
+
+
+header{
+	position: fixed;
+	/*top:0;*/
+	width:100%;
+	margin: auto;
+	padding-top:0px;
+	padding-bottom: :0px;
+	padding-left:10px;
+	padding-right:5px;
+	z-index:99;
+	background-color:#c5bbf7;}
+
+h1{
+	font-family: impact;}
+
+.spacer{
+	width:100%;
+	margin: 0 auto;
+	height:16rem;
+	}
+
+
+/*provide cut-off at which site is displayed with 
+white margins to maintain consistent layout*/
+@media (min-width: 850px){
+	html, body, header{
+			width: 100%;
+			max-width: 850px;
+			margin: 0 auto;
+		}
+
+	}
+
